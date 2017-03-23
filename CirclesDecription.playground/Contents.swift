@@ -8,7 +8,7 @@ var astronomy = DescritiveCircle(name:"Astro", descriptionText:"hui", color: .bl
 var it = DescritiveCircle(name:"IT", descriptionText:"hui", color: .red)
 
 
-var scene = CirclesScene(circles:[astronomy, it])
+var scene = CirclesScene(circles:[astronomy,it])
 
 
 PlaygroundPage.current.liveView = scene

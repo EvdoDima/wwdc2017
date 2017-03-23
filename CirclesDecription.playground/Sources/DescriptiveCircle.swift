@@ -15,6 +15,7 @@ public class DescritiveCircle: UIView {
         super.init(frame: CGRect(x:0,y:0,width:circleRadius,height:circleRadius))
         self.layer.cornerRadius = circleRadius/2
         self.backgroundColor = color
+        self.isUserInteractionEnabled = true
     }
     
     required public init?(coder aDecoder: NSCoder) {
