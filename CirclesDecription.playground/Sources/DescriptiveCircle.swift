@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-let circleRadius: CGFloat = 60
+let circleRadius: CGFloat = 120
 
 
 
@@ -27,6 +27,9 @@ public class DescritiveCircle: UIView {
         self.backgroundColor = color
         self.clipsToBounds = false
         self.isUserInteractionEnabled = true
+        
+        self.layer.borderWidth = 2.0
+        self.layer.borderColor = UIColor.darkGray.cgColor
     }
     
     
